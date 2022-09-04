@@ -1,5 +1,5 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="939" id="Tests/Stubs/P00MAIN1_DATETIME_01.stub" nextCalltoken="10002" stubtype="DATETIME" target="" token="10000">
+<stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="939" id="Tests/Stubs/P00MAIN1_DATETIME_02.stub" nextCalltoken="10002" stubtype="DATETIME" target="" token="10000">
   <stub:description>Created: 2021/12/06 12:45:11</stub:description>
   <stub:stubdata callToken="10001" dateTimeType="1" id="0" name="ACCEPT DATE">
     <stub:interface>../Interfaces/P00MAIN1_TODAYS_DATE.interface#Tests/Interfaces/P00MAIN1_TODAYS_DATE.interface</stub:interface>
