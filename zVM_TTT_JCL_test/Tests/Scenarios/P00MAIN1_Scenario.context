@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="172.19.4.10:13007" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALEJAPN.SC.BATCH.LOADLIB</Value>
+      <Value>CEE.SCEERUN</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="P00MAIN1" caseInsensitiveCompare="false" path="P00MAIN1_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="P00MAIN1_Scenario.testscenario" moduleName="P00MAIN1" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.7.3.v20210823-0336_163?>
+<!--Topaz for Total Test 20.7.3.v20210823-0336_163 2021/12/06 12:45:59-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Tests/Interfaces/P00MAIN1_P00SUBP2.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/P00MAIN1_P00SUBP2_EMP-TYPE.listructure#Tests/Structures/P00MAIN1_P00SUBP2_EMP-TYPE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/P00MAIN1_P00SUBP2_EMP-TYPE.listructure#EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/P00MAIN1_P00SUBP2_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/P00MAIN1_P00SUBP2_CALC-SALES.listructure#Tests/Structures/P00MAIN1_P00SUBP2_CALC-SALES.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/P00MAIN1_P00SUBP2_CALC-SALES.listructure#CALC_SALES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P00MAIN1_P00SUBP2_CALC-SALES.listructure#CALC_SALES.CALC_SALES">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/P00MAIN1_P00SUBP2_CALC-COMMISSION.listructure#Tests/Structures/P00MAIN1_P00SUBP2_CALC-COMMISSION.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/P00MAIN1_P00SUBP2_CALC-COMMISSION.listructure#CALC_COMMISSION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/P00MAIN1_P00SUBP2_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
